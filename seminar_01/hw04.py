@@ -1,8 +1,5 @@
 # Напишите программу, которая по заданному номеру четверти, показывает диапазон возможных координат точек в этой четверти(x и y).
 
-from zoneinfo import available_timezones
-
-
 value = int(input('Введите номер четверти [1..4]: '))
 available_quarters = [1,2,3,4]
 while not (value in available_quarters):
