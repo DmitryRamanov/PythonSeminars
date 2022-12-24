@@ -5,7 +5,7 @@ from bot_commands import menu3_command, menu4_command, menu5_command
 from controller import tg_start
 
 
-updater = Updater('5623533832:AAEUg5l49RsSZLFXfT55Ifwe2AYCz_BB23s')
+updater = Updater('')
 
 updater.dispatcher.add_handler(CommandHandler('hi', hi_command))
 updater.dispatcher.add_handler(CommandHandler('menu', menu_command))
